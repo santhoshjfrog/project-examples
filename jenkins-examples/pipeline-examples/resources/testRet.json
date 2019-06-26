@@ -2,7 +2,7 @@
   "files": [
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/m*.zip",
-      "target": "libs-snapshot-local/",
+      "target": "libs-release-local/",
       "recursive": "false"
     }
   ]
