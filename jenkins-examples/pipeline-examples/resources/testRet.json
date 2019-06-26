@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "pattern": "jenkins-examples/pipeline-examples/resources/*oj*.zip",
+      "target": "libs-snapshot-local/",
+      "recursive": "false"
+    }
+  ]
+}
