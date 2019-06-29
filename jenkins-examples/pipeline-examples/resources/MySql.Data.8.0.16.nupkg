@@ -1,0 +1,722 @@
+{
+  "packageDownloadLink": {
+    "attributes": {
+      "href": "http://localhost/api/packages/MySql.Data/8.0.16/content",
+      "rel": "attachment"
+    },
+    "text": "Download Package"
+  },
+  "versionHistory": [
+    {
+      "id": "MySql.Data",
+      "title": null,
+      "version": "8.0.16",
+      "lastUpdated": "2019-06-23T16:43:25+00:00",
+      "versionDownloadCount": 1,
+      "link": {
+        "attributes": {
+          "href": "http://localhost/api/packages/MySql.Data/8.0.16",
+          "rel": "start self"
+        },
+        "text": "8.0.16"
+      }
+    }
+  ],
+  "symbolsAvailable": false,
+  "score": 1.287682,
+  "id": "MySql.Data",
+  "version": "8.0.16",
+  "minClientVersion": null,
+  "normalizedVersion": "8.0.16",
+  "title": null,
+  "iconUrl": "http://www.mysql.com/common/logos/logo-mysql-170x115.png",
+  "licenseUrl": "https://downloads.mysql.com/docs/licenses/connector-net-8.0-gpl-en.pdf",
+  "projectUrl": "https://dev.mysql.com/downloads/",
+  "reportAbuseUrl": null,
+  "requireLicenseAcceptance": true,
+  "searchId": "MySql.Data",
+  "displayTitle": "MySql.Data",
+  "description": "MySql.Data.MySqlClient .Net Core Class Library",
+  "summary": null,
+  "releaseNotes": "Review ReleaseNotes.txt for details.",
+  "language": null,
+  "tags": " MySql .NET Connector MySql Connector/NET netcore .Net Core MySql Conector/Net Core coreclr C/NET C/Net Core ",
+  "copyright": "Copyright (c) 2016, 2019, Oracle and/or its affiliates. All rights reserved.",
+  "downloadCount": 1,
+  "versionDownloadCount": 1,
+  "isAbsoluteLatestVersion": true,
+  "isLatestVersion": true,
+  "developmentDependency": false,
+  "listed": true,
+  "isPrerelease": false,
+  "published": "2019-06-23T16:43:25+00:00",
+  "authors": [
+    "Oracle"
+  ],
+  "owners": [
+    "Oracle"
+  ],
+  "dependencies": [
+    "BouncyCastle:1.8.3.1:net452",
+    "Google.Protobuf:3.6.1:net452",
+    "BouncyCastle.NetCore:1.8.3:netstandard1.6",
+    "Google.Protobuf:3.6.1:netstandard1.6",
+    "NETStandard.Library:1.6.1:netstandard1.6",
+    "System.Collections.NonGeneric:4.3.0:netstandard1.6",
+    "System.ComponentModel:4.3.0:netstandard1.6",
+    "System.ComponentModel.Annotations:4.4.1:netstandard1.6",
+    "System.ComponentModel.Primitives:4.3.0:netstandard1.6",
+    "System.ComponentModel.TypeConverter:4.3.0:netstandard1.6",
+    "System.Data.Common:4.3.0:netstandard1.6",
+    "System.Data.SqlClient:4.4.3:netstandard1.6",
+    "System.Diagnostics.Process:4.3.0:netstandard1.6",
+    "System.Diagnostics.TextWriterTraceListener:4.3.0:netstandard1.6",
+    "System.IO.Compression:4.3.0:netstandard1.6",
+    "System.IO.FileSystem.Primitives:4.3.0:netstandard1.6",
+    "System.IO.MemoryMappedFiles:4.3.0:netstandard1.6",
+    "System.IO.Pipes:4.3.0:netstandard1.6",
+    "System.Linq.Expressions:4.3.0:netstandard1.6",
+    "System.Net.NameResolution:4.3.0:netstandard1.6",
+    "System.Net.Security:4.3.2:netstandard1.6",
+    "System.Net.Sockets:4.3.0:netstandard1.6",
+    "System.Reflection:4.3.0:netstandard1.6",
+    "System.Reflection.TypeExtensions:4.4.0:netstandard1.6",
+    "System.Resources.ResourceManager:4.3.0:netstandard1.6",
+    "System.Runtime.InteropServices.RuntimeInformation:4.3.0:netstandard1.6",
+    "System.Runtime.Serialization.Formatters:4.3.0:netstandard1.6",
+    "System.Security.Principal.Windows:4.4.1:netstandard1.6",
+    "System.Text.Encoding.CodePages:4.4.0:netstandard1.6",
+    "System.Threading.Tasks:4.3.0:netstandard1.6",
+    "System.Threading.ThreadPool:4.3.0:netstandard1.6",
+    "System.Threading.Timer:4.3.0:netstandard1.6",
+    "BouncyCastle.NetCore:1.8.3:netcoreapp2.0",
+    "Google.Protobuf:3.6.1:netcoreapp2.0",
+    "System.Configuration.ConfigurationManager:4.4.1:netcoreapp2.0",
+    "System.Security.Permissions:4.4.1:netcoreapp2.0",
+    "System.Text.Encoding.CodePages:4.4.0:netcoreapp2.0",
+    "BouncyCastle.NetCore:1.8.3:netstandard2.0",
+    "Google.Protobuf:3.6.1:netstandard2.0",
+    "System.Configuration.ConfigurationManager:4.4.1:netstandard2.0",
+    "System.Security.Permissions:4.4.1:netstandard2.0",
+    "System.Text.Encoding.CodePages:4.4.0:netstandard2.0"
+  ],
+  "dependencySets": [
+    {
+      "targetFramework": {
+        "identifier": ".NETFramework",
+        "version": {
+          "major": 4,
+          "minor": 5,
+          "build": 2,
+          "revision": -1,
+          "majorRevision": -1,
+          "minorRevision": -1
+        },
+        "profile": "",
+        "fullName": ".NETFramework,Version=v4.5.2"
+      },
+      "dependencies": [
+        {
+          "id": "BouncyCastle",
+          "versionSpec": {
+            "minVersion": "1.8.3.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "Google.Protobuf",
+          "versionSpec": {
+            "minVersion": "3.6.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        }
+      ],
+      "supportedFrameworks": [
+        {
+          "identifier": ".NETFramework",
+          "version": {
+            "major": 4,
+            "minor": 5,
+            "build": 2,
+            "revision": -1,
+            "majorRevision": -1,
+            "minorRevision": -1
+          },
+          "profile": "",
+          "fullName": ".NETFramework,Version=v4.5.2"
+        }
+      ]
+    },
+    {
+      "targetFramework": {
+        "identifier": ".NETStandard",
+        "version": {
+          "major": 1,
+          "minor": 6,
+          "build": -1,
+          "revision": -1,
+          "majorRevision": -1,
+          "minorRevision": -1
+        },
+        "profile": "",
+        "fullName": ".NETStandard,Version=v1.6"
+      },
+      "dependencies": [
+        {
+          "id": "BouncyCastle.NetCore",
+          "versionSpec": {
+            "minVersion": "1.8.3",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "Google.Protobuf",
+          "versionSpec": {
+            "minVersion": "3.6.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "NETStandard.Library",
+          "versionSpec": {
+            "minVersion": "1.6.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Collections.NonGeneric",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.ComponentModel",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.ComponentModel.Annotations",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.ComponentModel.Primitives",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.ComponentModel.TypeConverter",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Data.Common",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Data.SqlClient",
+          "versionSpec": {
+            "minVersion": "4.4.3",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Diagnostics.Process",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Diagnostics.TextWriterTraceListener",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.IO.Compression",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.IO.FileSystem.Primitives",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.IO.MemoryMappedFiles",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.IO.Pipes",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Linq.Expressions",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Net.NameResolution",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Net.Security",
+          "versionSpec": {
+            "minVersion": "4.3.2",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Net.Sockets",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Reflection",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Reflection.TypeExtensions",
+          "versionSpec": {
+            "minVersion": "4.4.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Resources.ResourceManager",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Runtime.InteropServices.RuntimeInformation",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Runtime.Serialization.Formatters",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Security.Principal.Windows",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Text.Encoding.CodePages",
+          "versionSpec": {
+            "minVersion": "4.4.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Threading.Tasks",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Threading.ThreadPool",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Threading.Timer",
+          "versionSpec": {
+            "minVersion": "4.3.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        }
+      ],
+      "supportedFrameworks": [
+        {
+          "identifier": ".NETStandard",
+          "version": {
+            "major": 1,
+            "minor": 6,
+            "build": -1,
+            "revision": -1,
+            "majorRevision": -1,
+            "minorRevision": -1
+          },
+          "profile": "",
+          "fullName": ".NETStandard,Version=v1.6"
+        }
+      ]
+    },
+    {
+      "targetFramework": {
+        "identifier": ".NETCoreApp",
+        "version": {
+          "major": 2,
+          "minor": 0,
+          "build": -1,
+          "revision": -1,
+          "majorRevision": -1,
+          "minorRevision": -1
+        },
+        "profile": "",
+        "fullName": ".NETCoreApp,Version=v2.0"
+      },
+      "dependencies": [
+        {
+          "id": "BouncyCastle.NetCore",
+          "versionSpec": {
+            "minVersion": "1.8.3",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "Google.Protobuf",
+          "versionSpec": {
+            "minVersion": "3.6.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Configuration.ConfigurationManager",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Security.Permissions",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Text.Encoding.CodePages",
+          "versionSpec": {
+            "minVersion": "4.4.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        }
+      ],
+      "supportedFrameworks": [
+        {
+          "identifier": ".NETCoreApp",
+          "version": {
+            "major": 2,
+            "minor": 0,
+            "build": -1,
+            "revision": -1,
+            "majorRevision": -1,
+            "minorRevision": -1
+          },
+          "profile": "",
+          "fullName": ".NETCoreApp,Version=v2.0"
+        }
+      ]
+    },
+    {
+      "targetFramework": {
+        "identifier": ".NETStandard",
+        "version": {
+          "major": 2,
+          "minor": 0,
+          "build": -1,
+          "revision": -1,
+          "majorRevision": -1,
+          "minorRevision": -1
+        },
+        "profile": "",
+        "fullName": ".NETStandard,Version=v2.0"
+      },
+      "dependencies": [
+        {
+          "id": "BouncyCastle.NetCore",
+          "versionSpec": {
+            "minVersion": "1.8.3",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "Google.Protobuf",
+          "versionSpec": {
+            "minVersion": "3.6.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Configuration.ConfigurationManager",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Security.Permissions",
+          "versionSpec": {
+            "minVersion": "4.4.1",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        },
+        {
+          "id": "System.Text.Encoding.CodePages",
+          "versionSpec": {
+            "minVersion": "4.4.0",
+            "isMinInclusive": true,
+            "maxVersion": null,
+            "isMaxInclusive": false
+          },
+          "include": null,
+          "exclude": null
+        }
+      ],
+      "supportedFrameworks": [
+        {
+          "identifier": ".NETStandard",
+          "version": {
+            "major": 2,
+            "minor": 0,
+            "build": -1,
+            "revision": -1,
+            "majorRevision": -1,
+            "minorRevision": -1
+          },
+          "profile": "",
+          "fullName": ".NETStandard,Version=v2.0"
+        }
+      ]
+    }
+  ],
+  "frameworkAssemblies": [],
+  "assemblyReferences": [],
+  "packageAssemblyReferences": null,
+  "packageSize": 1558459,
+  "packageHash": "Vf8+qCPJMtxvMlRLTmq2ySvjjz0reW3HuF9g8zVsPcI=",
+  "packageHashAlgorithm": "SHA256",
+  "lastUpdated": "2019-06-23T16:43:25+00:00",
+  "created": "2019-03-08T09:05:56+00:00",
+  "path": "MySql.Data/MySql.Data.8.0.16.nupkg",
+  "supportedFrameworks": [
+    "net452",
+    "netcoreapp2.0",
+    "netstandard1.6",
+    "netstandard2.0"
+  ],
+  "files": [
+    "lib/net452/MySql.Data.dll",
+    "lib/net452/MySql.Data.xml",
+    "lib/netcoreapp2.0/MySql.Data.dll",
+    "lib/netcoreapp2.0/MySql.Data.xml",
+    "lib/netstandard1.6/MySql.Data.dll",
+    "lib/netstandard1.6/MySql.Data.xml",
+    "lib/netstandard2.0/MySql.Data.dll",
+    "lib/netstandard2.0/MySql.Data.xml"
+  ],
+  "originUrl": null,
+  "isMirrored": false
+}

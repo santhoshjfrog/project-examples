@@ -1,0 +1,77 @@
+{
+  "packageDownloadLink": {
+    "attributes": {
+      "href": "http://localhost/api/packages/AForge/2.2.5/content",
+      "rel": "attachment"
+    },
+    "text": "Download Package"
+  },
+  "versionHistory": [
+    {
+      "id": "AForge",
+      "title": "AForge (core library)",
+      "version": "2.2.5",
+      "lastUpdated": "2019-06-23T15:56:52+00:00",
+      "versionDownloadCount": 1,
+      "link": {
+        "attributes": {
+          "href": "http://localhost/api/packages/AForge/2.2.5",
+          "rel": "start self"
+        },
+        "text": "2.2.5"
+      }
+    }
+  ],
+  "symbolsAvailable": false,
+  "score": 2.098612,
+  "id": "AForge",
+  "version": "2.2.5",
+  "minClientVersion": null,
+  "normalizedVersion": "2.2.5",
+  "title": "AForge (core library)",
+  "iconUrl": "http://www.aforgenet.com/img/aforgenet_icon.png",
+  "licenseUrl": "http://www.aforgenet.com/framework/license.html",
+  "projectUrl": "http://www.aforgenet.com/framework/",
+  "reportAbuseUrl": null,
+  "requireLicenseAcceptance": false,
+  "searchId": "AForge",
+  "displayTitle": "AForge (core library)",
+  "description": "The AForge library is a core library of AForge.NET framework, which contains core classes used by other libraries of the framework and classes, which can be used independently for various purposes.",
+  "summary": "Core library of the AForge.NET framework",
+  "releaseNotes": null,
+  "language": null,
+  "tags": " aforge.net framework ",
+  "copyright": null,
+  "downloadCount": 1,
+  "versionDownloadCount": 1,
+  "isAbsoluteLatestVersion": true,
+  "isLatestVersion": true,
+  "developmentDependency": false,
+  "listed": true,
+  "isPrerelease": false,
+  "published": "2019-06-23T15:56:52+00:00",
+  "authors": [
+    "AForge.NET"
+  ],
+  "owners": [
+    "AForge.NET"
+  ],
+  "dependencies": [],
+  "dependencySets": [],
+  "frameworkAssemblies": [],
+  "assemblyReferences": [],
+  "packageAssemblyReferences": null,
+  "packageSize": 27665,
+  "packageHash": "B5VGKrz/+U4TR8yFAKgu36puA2eo/BHRqFSUl2S0eGE=",
+  "packageHashAlgorithm": "SHA256",
+  "lastUpdated": "2019-06-23T15:56:52+00:00",
+  "created": "2013-07-17T23:15:16+00:00",
+  "path": "AForge/AForge.2.2.5.nupkg",
+  "supportedFrameworks": [],
+  "files": [
+    "lib/AForge.dll",
+    "lib/AForge.xml"
+  ],
+  "originUrl": null,
+  "isMirrored": false
+}
