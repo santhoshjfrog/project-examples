@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/My*.nupkg",
+      "pattern": "jenkins-examples/pipeline-examples/resources/NU*.nupkg",
       "target": "nuget-local/",
       "recursive": "false"
     }
