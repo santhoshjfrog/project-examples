@@ -1,32 +1,11 @@
-# Maven
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'install'
+    options: 'org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy -X -DaltSnapshotDeploymentRepository=libs-release-local::default::http://mill.jfrog.team:12232/artifactory/libs-release-local;build.number=$(Build.BuildNumber);build.name=$(Build.DefinitionName) -DaltReleaseDeploymentRepository=libs-release-local::default::http://mill.jfrog.team:12232/artifactory/libs-release-local;build.number=$(Build.BuildNumber);build.name=$(Build.DefinitionName) -DaltDeploymentRepository=libs-release-local::default::http://mill.jfrog.team:12232/artifactory/libs-release-local;build.number=$(Build.BuildNumber);build.name=$(Build.DefinitionName) -Dmaven.test.failure.ignore=true -pl sr-app-demo-access-ui'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-# Build your Java project and run tests with Apache Maven.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
-
-trigger:
-- master
-
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- task: Maven@3
-  inputs:
-    mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
