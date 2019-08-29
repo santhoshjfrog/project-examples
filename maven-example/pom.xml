@@ -25,7 +25,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>supportuse-releases</name>
+        <url>https://supportuse.jfrog.io/supportuse/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>supportuse-snapshots</name>
+        <url>https://supportuse.jfrog.io/supportuse/libs-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
@@ -67,16 +78,4 @@
             </plugin>
         </plugins>
     </build>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>supportuse-releases</name>
-        <url>https://supportuse.jfrog.io/supportuse/libs-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>supportuse-snapshots</name>
-        <url>https://supportuse.jfrog.io/supportuse/libs-release-local</url>
-    </snapshotRepository>
-</distributionManagement>
 </project>
