@@ -70,7 +70,7 @@
                             </artifactory>
                             <publisher>
                                 <contextUrl>https://supportuse.jfrog.io/supportuse/</contextUrl>
-                                <username>support-use</username>
+                                <username></username>
                                 <password>password</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
