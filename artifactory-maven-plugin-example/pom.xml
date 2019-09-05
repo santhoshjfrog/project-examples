@@ -31,15 +31,11 @@
         <id>central</id>
         <name>supportuse-releases</name>
         <url>https://supportuse.jfrog.io/supportuse/libs-snapshot-local</url>
-        <username>support-use</username>
-        <password>password</password>
          </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>supportuse-snapshots</name>
         <url>https://supportuse.jfrog.io/supportuse/libs-snapshot-local</url>
-        <username>support-use</username>
-        <password>password</password>
          </snapshotRepository>
 </distributionManagement>
     <build>
