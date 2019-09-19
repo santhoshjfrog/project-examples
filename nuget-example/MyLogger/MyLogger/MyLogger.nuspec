@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>MyLogger</id>
+    <id>saitest</id>
     <version>1.0.0.0</version>
     <title>$title$</title>
     <authors>JFrog</authors>
@@ -9,11 +9,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>JFrog custom logger</description>
     <copyright>Copyright 2013</copyright>
-     <dependencies>
-    <dependency id="MyLogger" version="1.0.0.0" />
-    <dependency id="Newtonsoft.Json" version="9.0" />
-    <dependency id="Microsoft.AspNet.Mvc" version="5.2.7" />
-    <dependency id="jQuery" version="1.4.3" /> 
-</dependencies>
+    <dependencies>
+     <dependency id="MyLogger" version="1.0.0.0" />
+     <dependency id="Newtonsoft.Json" version="9.0" />
+     <dependency id="Microsoft.AspNet.Mvc" version="5.2.7" />
+     <dependency id="jQuery" version="1.4.3" /> 
+    </dependencies>
   </metadata>
 </package>
