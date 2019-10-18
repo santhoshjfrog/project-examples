@@ -12,11 +12,21 @@
         <module>multi2</module>
         <module>multi3</module>
     </modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ca5a3b3e21b6-releases</name>
+        <url>http://10.128.1.38:8081/artifactory/libs-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ca5a3b3e21b6-snapshots</name>
+        <url>http://10.128.1.38:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
