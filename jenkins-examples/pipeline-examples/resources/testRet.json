@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/sai*.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/A*.zip",
       "target": "libs-release-local/",
       "recursive": "false"
     }
