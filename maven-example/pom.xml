@@ -31,11 +31,6 @@
             <artifactId>incrementalbuild</artifactId>
             <version>0.20.9</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.ant</groupId>
-            <artifactId>ant</artifactId>
-            <version>1.10.6</version>
-        </dependency>
     </dependencies>
 
     <build>
