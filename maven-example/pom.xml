@@ -30,6 +30,7 @@
             <groupId>io.takari</groupId>
             <artifactId>incrementalbuild</artifactId>
             <version>0.20.9</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
