@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/*.tar.gz",
+      "pattern": "*.tar.gz",
       "target": "libs-snapshot-local",
       "regexp": "true",
       "excludePatterns": [".*.zip", "jenkins-examples/pipeline-examples/resources/props.*"]
