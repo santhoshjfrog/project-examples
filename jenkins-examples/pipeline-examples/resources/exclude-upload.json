@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "\\*.tar.gz",
+      "pattern": "jenkins-examples/pipeline-examples/resources/access.2020-04-06-logs-seliius24979.tar.gz",
       "target": "libs-snapshot-local",
       "regexp": "true",
       "excludePatterns": [".*.zip", "jenkins-examples/pipeline-examples/resources/props.*"]
