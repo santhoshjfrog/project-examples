@@ -27,6 +27,11 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>io.takari</groupId>
+            <artifactId>incrementalbuild</artifactId>
+            <version>0.20.9</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
             <version>1.10.6</version>
