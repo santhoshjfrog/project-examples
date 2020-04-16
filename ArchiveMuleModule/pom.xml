@@ -16,12 +16,12 @@
         <repository>
             <id>jdaconnect-release</id>
             <name>jdaconnect-release</name>
-           <url>https://supporteuw.jfrog.io/artifactory/jdaconnect-release-local</url>
+           <url>https://supporteuw.jfrog.io/artifactory/libs-release</url>
            </repository>
             <snapshotRepository>
                 <id>jdaconnect-sandbox</id>
                 <name>jdaconnect-sandbox</name>
-               <url>https://supporteuw.jfrog.io/artifactory/jdaconnect-sandbox-local</url>
+               <url>https://supporteuw.jfrog.io/artifactory/libs-snapshot</url>
             </snapshotRepository>
         </distributionManagement>
 
