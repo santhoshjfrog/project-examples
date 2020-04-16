@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="d54f850f-6517-45b7-9081-d06f57b9d618" >
+		<http:listener-connection host="0.0.0.0" port="8082" />
+	</http:listener-config>
+	<flow name="bydependentmodFlow" doc:id="0533c8a5-a44b-4cfc-bade-880759e30d6e" >
+		<http:listener doc:name="Listener" doc:id="12b7c6ef-b9cd-4bcb-92e6-2eded3229afa" config-ref="HTTP_Listener_config" path="dp"/>
+		<logger level="INFO" doc:name="Logger" doc:id="edfae845-809d-41d5-b138-45395e97472a" message="#[payload]"/>
+		<set-payload value="Building Dependent Module" doc:name="Set Payload" doc:id="65126b90-8392-4201-b2ff-7a00105e9e7d" />
+	</flow>
+</mule>
