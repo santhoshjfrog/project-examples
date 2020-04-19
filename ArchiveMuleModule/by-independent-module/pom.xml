@@ -19,7 +19,7 @@
     <properties>
         <!-- XML SDK properties-->
         <mule.version>4.1.1</mule.version>
-<!--         <mule.extensions.maven.plugin.version>1.1.5</mule.extensions.maven.plugin.version> -->
+        <mule.extensions.maven.plugin.version>1.1.5</mule.extensions.maven.plugin.version>
         <munit.version>2.1.3</munit.version>
         <munit.extensions.maven.plugin.version>1.0.0-BETA</munit.extensions.maven.plugin.version>
         <munit.input.directory>src/test/munit</munit.input.directory>
@@ -133,12 +133,12 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
+<!--             <plugin>
                 <groupId>org.mule.runtime.plugins</groupId>
                 <artifactId>mule-plugins-maven-plugin-parent</artifactId>
                 <version>1.1.5</version>
                 <extensions>true</extensions>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>com.mulesoft.munit</groupId>
                 <artifactId>munit-extensions-maven-plugin</artifactId>
