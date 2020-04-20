@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "/root/Apache-tomcat-master/",
+      "pattern": "Apache-tomcat-master/",
       "target": "libs-snapshot-local",
       "regexp": "true",
       "excludePatterns": ["pom.xml"]
