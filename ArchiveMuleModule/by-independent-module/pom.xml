@@ -133,12 +133,7 @@
             </plugins>
         </pluginManagement>
         <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>${maven.javadoc.plugin.version}</version>
-                </plugin>
-<!--             <plugin>
+            <plugin>
                 <groupId>org.mule.runtime.plugins</groupId>
                 <artifactId>mule-plugins-maven-plugin-parent</artifactId>
                 <version>1.1.5</version>
@@ -147,7 +142,7 @@
             <plugin>
                 <groupId>com.mulesoft.munit</groupId>
                 <artifactId>munit-extensions-maven-plugin</artifactId>
-            </plugin>-->
+            </plugin>
         </plugins> 
     </build>
 
