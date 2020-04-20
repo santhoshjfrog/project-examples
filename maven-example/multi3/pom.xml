@@ -15,6 +15,11 @@
         <!-- depends on another project (should include transitive) -->
         <dependency>
             <groupId>${project.groupId}</groupId>
+            <artifactId>multi2</artifactId>
+           <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
             <artifactId>multi1</artifactId>
            <version>${project.parent.version}</version>
         </dependency>
