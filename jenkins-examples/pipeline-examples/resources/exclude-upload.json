@@ -4,7 +4,7 @@
       "pattern": "Apache-tomcat-master/",
       "target": "libs-snapshot-local",
       "regexp": "true",
-      "excludePatterns": ["pom.xml"]
+      "excludePatterns": [".*.xml"]
     }
   ]
 }
