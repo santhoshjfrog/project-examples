@@ -148,6 +148,12 @@
 
     <repositories>
         <repository>
+            <id>anypoint-exchange-v2</id>
+            <name>Anypoint Exchange</name>
+            <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
             <url>http://repository.mulesoft.org/releases/</url>
@@ -160,5 +166,16 @@
             <layout>default</layout>
         </repository>
     </repositories>
+<pluginRepositories>
+    <pluginRepository>
+        <id>mulesoft-releases</id>
+        <name>mulesoft release repository</name>
+        <layout>default</layout>
+        <url>https://repository.mulesoft.org/releases/</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>
+</pluginRepositories>
     
 </project>
