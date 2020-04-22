@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "Apache-tomcat-master/",
+      "pattern": "jenkins-examples/pipeline-examples/resources/",
       "target": "libs-snapshot-local",
       "regexp": "true",
       "excludePatterns": [".*.xml"]
