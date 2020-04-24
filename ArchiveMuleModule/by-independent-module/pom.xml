@@ -12,6 +12,7 @@
     <artifactId>by-independent-module</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-extension</packaging>
+    <extension>true</extension>
 
     <name>independent-module Smart Connector</name>
     <description>A Mule extension done with pure Mule DSL</description>
@@ -148,15 +149,15 @@
 
     <repositories>
         <repository>
-            <id>anypoint-exchange-v2</id>
-            <name>Anypoint Exchange</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
             <url>http://repository.mulesoft.org/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>anypoint-exchange-v2</id>
+            <name>Anypoint Exchange</name>
+            <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
             <layout>default</layout>
         </repository>
         <repository>
