@@ -12,6 +12,8 @@
     <artifactId>by-independent-module</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>by-independent-module</name>
+
 
     <name>independent-module Smart Connector</name>
     <description>A Mule extension done with pure Mule DSL</description>
