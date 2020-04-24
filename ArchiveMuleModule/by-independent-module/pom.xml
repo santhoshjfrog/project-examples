@@ -34,6 +34,7 @@
         <maven.site.plugin.version>3.6.1</maven.site.plugin.version>
         <maven.javadoc.plugin.version>3.0.1</maven.javadoc.plugin.version>
         <maven.surefire.plugin.version>2.22.0</maven.surefire.plugin.version>
+        <mule.file.commons.version>1.4.0-SNAPSHOT</mule.file.commons.version>
     </properties>
 
     <dependencies>
@@ -51,6 +52,12 @@
             <version>${munit.version}</version>
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-file-extension-common</artifactId>
+            <version>${mule.file.commons.version}</version>
+            <classifier>mule-plugin</classifier>
         </dependency>
     </dependencies>
 
