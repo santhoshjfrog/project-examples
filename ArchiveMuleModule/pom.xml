@@ -12,23 +12,20 @@
         <module>bydependentmod</module>
   </modules>
 
-       <distributionManagement>
+  <distributionManagement>
         <repository>
-            <id>jdaconnect-release</id>
-            <name>jdaconnect-release</name>
-            <url>https://supporteuw.jfrog.io/artifactory/libs-release</url>
-            <releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
-            <snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
-           </repository>
-           <snapshotRepository>
-                <id>jdaconnect-sandbox</id>
-                <name>jdaconnect-sandbox</name>
-                <url>https://supporteuw.jfrog.io/artifactory/libs-snapshot</url>
-                <releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
-                <snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
-           </snapshotRepository>
-        </distributionManagement>
-    <repositories>
+                <id>central</id>
+                <name>saiwiwo-artifactory-primary-0-releases</name>
+                <url>https://supportusw.jfrog.io/supportusw/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+                <id>snapshots</id>
+                <name>saiwiwo-artifactory-primary-0-snapshots</name>
+                <url>https://supportusw.jfrog.io/supportusw/libs-snapshot-local</url>
+        </snapshotRepository>
+   </distributionManagement>
+
+<repositories>
     <repository>
         <id>anypoint-exchange-v2</id>
         <name>Anypoint Exchange</name>
@@ -53,6 +50,18 @@
         </snapshots>
     </pluginRepository>
 </pluginRepositories>
-    
+       <!-- <distributionManagement>
+        <repository>
+            <id>jdaconnect-release</id>
+            <name>jdaconnect-release</name>
+           <url>https://jdasoftware.jfrog.io/jdasoftware/jdaconnect-release-local</url>
+           </repository>
+            <snapshotRepository>
+                <id>jdaconnect-sandbox</id>
+                <name>jdaconnect-sandbox</name>
+               <url>https://jdasoftware.jfrog.io/jdasoftware/jdaconnect-sandbox-local</url>
+            </snapshotRepository>
+        </distributionManagement> -->
 
 </project>
+
