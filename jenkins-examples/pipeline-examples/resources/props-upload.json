@@ -6,7 +6,7 @@
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipelineNoProps.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/NUnit.3.12.0.nupkg",
       "target": "libs-snapshot-local"
     }
   ]
