@@ -2,12 +2,12 @@
   "files": [
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/Dockerfile",
-      "target": "libs-release-local/delete/",
+      "target": "libs-snapshot-local/delete/",
       "props": "p1=v1;p2=v2"
     },
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/memjs-1.1.0.zip",
-      "target": "libs-release-local/delete/"
+      "target": "libs-snapshot-local/delete/"
     }
   ]
 }
