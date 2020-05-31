@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/exclude-upload.json",
+      "pattern": "jenkins-examples/pipeline-examples/resources/aql-download.json",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/saiu@jfrog.com.ical.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/testRet.json",
       "target": "libs-snapshot-local/"
     }
   ]
