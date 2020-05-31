@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/Dockerfile",
+      "pattern": "jenkins-examples/pipeline-examples/resources/MySql.Data.8.0.16.nupkg",
       "target": "libs-snapshot-local/delete/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/memjs-1.1.0.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/ojdbc6.jar.zip",
       "target": "libs-snapshot-local/delete/"
     }
   ]
