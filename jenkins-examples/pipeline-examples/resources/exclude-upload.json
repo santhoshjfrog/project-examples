@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipeline.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/HappyMod_v2.5.2_apkpure.com.apk",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
