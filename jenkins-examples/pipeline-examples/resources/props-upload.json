@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/nginx.conf",
+      "pattern": "jenkins-examples/pipeline-examples/resources/props-download.json",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/export.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/props-upload.json",
       "target": "libs-snapshot-local/"
     }
   ]
