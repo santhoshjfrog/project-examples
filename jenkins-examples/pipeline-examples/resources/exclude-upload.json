@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/MySql.Data.8.0.16.nupkg",
+      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipelineNoProps.zip",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/m@!erge-@options-master.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/electric_9.07+dfsg-5_all.deb",
       "target": "libs-snapshot-local/"
     }
   ]
