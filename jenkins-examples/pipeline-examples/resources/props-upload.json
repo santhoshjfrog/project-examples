@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/props-upload.json",
+      "pattern": "jenkins-examples/pipeline-examples/resources/exclude-upload.json",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/props-download.json",
+      "pattern": "jenkins-examples/pipeline-examples/resources/exclude-download.json",
       "target": "libs-snapshot-local/"
     }
   ]
