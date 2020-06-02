@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipeline.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/HappyMod_v2.5.2_apkpure.com.apk",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipelineNoProps.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/access.2020-04-06-logs-seliius24979.tar.gz",
       "target": "libs-snapshot-local/"
     }
   ]
