@@ -1,12 +1,12 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipelineNoProps.zip",
+      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipeline.zip",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/electric_9.07+dfsg-5_all.deb",
+      "pattern": "jenkins-examples/pipeline-examples/resources/nginx.conf",
       "target": "libs-snapshot-local/"
     }
   ]
