@@ -6,7 +6,7 @@
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/java-11-openjdk-jmods-11.0.6.10-3.el7.x86_64.rpm",
+      "pattern": "jenkins-examples/pipeline-examples/resources/xonotic-data-0.8.2-1.el7.noarch.rpm",
       "target": "libs-snapshot-local/"
     }
   ]
