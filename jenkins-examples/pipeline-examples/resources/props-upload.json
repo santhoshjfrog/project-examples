@@ -4,6 +4,7 @@
       "pattern": "jenkins-examples/pipeline-examples/resources/freedroidrpg-data-1.0-0.fc32.rc2.2.noarch.rpm",
       "target": "libs-snapshot-local/"
     }
-    }    
+    ]
+}    
     
 
