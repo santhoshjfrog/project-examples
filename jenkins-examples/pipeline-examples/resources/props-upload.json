@@ -6,7 +6,7 @@
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/xonotic-data-0.8.2-1.el7.noarch.rpm",
+      "pattern": "jenkins-examples/pipeline-examples/resources/ 0ad-data-0.0.23b-4.fc32.noarch.rpm",
       "target": "libs-snapshot-local/"
     }
   ]
