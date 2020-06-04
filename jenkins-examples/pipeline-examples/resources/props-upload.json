@@ -1,13 +1,8 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/astrometry-data-4204-0.78-7.fc33.noarch.rpm",
+      "pattern": "jenkins-examples/pipeline-examples/resources/freedroidrpg-data-1.0-0.fc32.rc2.2.noarch.rpm",
       "target": "libs-snapshot-local/",
       "props": "p1=v1;p2=v2"
-    },
-    {
-      "pattern": "jenkins-examples/pipeline-examples/resources/alienarena-data-7.71.1-3.fc32.noarch.rpm",
-      "target": "libs-snapshot-local/"
     }
-  ]
 }
