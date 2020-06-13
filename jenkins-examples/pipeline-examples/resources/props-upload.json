@@ -2,7 +2,7 @@
   "files": [
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/MySql.Data.8.0.16.nupkg",
-      "target": "libs-snapshot-local/delte/",
+      "target": "libs-snapshot-local/org/sonarsource/sonarlint/eclipse/org.sonarlint.eclipse.site/",
       "props": "p1=v1;p2=v2"
     },
     {
