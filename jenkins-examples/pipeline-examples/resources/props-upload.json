@@ -2,12 +2,12 @@
   "files": [
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/MySql.Data.8.0.16.nupkg",
-      "target": "libs-snapshot-local/org/sonarsource/sonarlint/eclipse/org.sonarlint.eclipse.site/",
+      "target": "libs-snapsh-local/org/sonarsource/sonarlint/eclipse/org.sonarlint.eclipse.site/",
       "props": "p1=v1;p2=v2"
     },
     {
       "pattern": "jenkins-examples/pipeline-examples/resources/m@!erge-@options-master.zip",
-      "target": "libs-snapshot-local/delte/"
+      "target": "libs-snapsh-local/delte/"
     }
   ]
 }
