@@ -37,6 +37,10 @@
       <HintPath>dependencies\MsbuildLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
+  
+   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+  </ItemGroup>
 
   <Target Name="UploadArtifacts" AfterTargets="AfterBuild" Condition=" '$(ArtifactoryPublish)' == 'true' ">
     <Message Text="Upload artifacts"/>
