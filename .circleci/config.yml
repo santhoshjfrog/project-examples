@@ -1,11 +1,8 @@
-# Golang CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-go/ for more details
 version: 2
 jobs:
   foo:
     docker:
-      - image: santhosh123.jfrog.io/docker/ubuntu:bionic
+      - image: santhosh123.jfrog.io/docker/mysql
     parallelism: 4
     steps:
       - checkout
