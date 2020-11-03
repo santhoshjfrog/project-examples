@@ -2,7 +2,7 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: santhosh123.jfrog.io/docker/mysql
+      - image: santhosh123.jfrog.io/docker/ubuntu:bionic
     parallelism: 4
     steps:
       - checkout
