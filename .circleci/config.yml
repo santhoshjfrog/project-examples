@@ -5,7 +5,7 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: santhosh.jfrog.io/docker/busybox
+      - image: santhosh123.jfrog.io/docker/busybox
     parallelism: 4
     steps:
       - checkout
@@ -16,4 +16,3 @@ workflows:
   circle-test:
     jobs:
       - foo
-
