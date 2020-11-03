@@ -5,7 +5,7 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: hashicorp.jfrog.io/docker/minio/mc
+      - image: santhosh123.jfrog.io/docker/minio/mc
     parallelism: 10
     steps:
       - checkout
