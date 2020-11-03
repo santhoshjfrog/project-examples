@@ -5,8 +5,8 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: santhosh123.jfrog.io/docker/busybox/latest
-    parallelism: 4
+      - image: santhosh123.jfrog.io/docker/busybox
+    parallelism: 10
     steps:
       - checkout
       - run: echo Hello, world. Yay
@@ -16,3 +16,4 @@ workflows:
   circle-test:
     jobs:
       - foo
+
